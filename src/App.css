@@ -1,0 +1,33 @@
+
+.App {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+div label input[type=text]{ 
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+div label input[type=number]{ 
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  border: 2px solid;
+  font: inherit;
+  padding: .7em 1.4em;
+  margin-top: 14px;
+  /* text-decoration: none; */
+  cursor: pointer;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+ box-shadow: 0 8px 6px -6px black;
+}
